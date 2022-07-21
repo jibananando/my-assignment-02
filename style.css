@@ -1,5 +1,5 @@
 /* google fonts */
-body{
+body {
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -19,7 +19,8 @@ body{
     padding: 16px 25px;
     gap: 10px;
 }
-.this-is-heading{
+
+.this-is-heading {
     font-size: 70px;
 }
 
@@ -68,6 +69,7 @@ body{
     border-radius: 10px;
     margin-right: 50px;
 }
+
 .all-button {
     display: flex;
     flex-direction: column;
@@ -78,15 +80,18 @@ body{
     margin-top: 25px;
 }
 
-.b-1, .b-2 {
+.b-1,
+.b-2 {
     border: solid;
     height: 64px;
     width: 252;
     border-radius: 10px;
     text-align: center;
     background-color: white;
-    
+    text-decoration: none;
+
 }
+
 .b-3 {
     border: solid;
     height: 64px;
@@ -98,40 +103,46 @@ body{
 
 .blog-section {
     /* display: flex; */
-   margin-left: 140px;
+    margin-left: 140px;
 }
-span{
+
+span {
     width: 60px;
     height: 26px;
 }
 
-.pragraph{
+.pragraph {
     height: 54px;
     width: 272;
 }
+
 /* blog section  */
 
-.blog{
+.blog {
     width: 312px;
     height: 370px;
     border: solid 1px;
     border-radius: 14px;
 
 }
-.blog-btn{
+
+.blog-btn {
     height: 32px;
     width: 100px;
     margin-top: 5px;
 }
-.after-block{
+
+.after-block {
     padding-left: 20px;
 }
-.blog-section{
+
+.blog-section {
     display: flex;
     width: 1321px;
     margin: 50px auto;
 
 }
+
 .total-blog {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -147,7 +158,8 @@ span{
     padding-bottom: 40px;
 
 }
-.foote-heading{
+
+.foote-heading {
     font-size: 40px;
 }
 
@@ -160,9 +172,10 @@ hr {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
+
 }
-.social-button{
+
+.social-button {
     font-size: xx-large;
     margin-top: 50px;
 }
